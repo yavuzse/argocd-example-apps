@@ -1,7 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
 namePrefix: kustomize-
 
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
+
+images:
+- name: acrfressnapfcloud.azurecr.io/test-automation/service/dev/ai-nexus
+  newTag: 0.0.1-304.764db190a4114529696c790b9a6aaf6900a4abf7
