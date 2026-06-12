@@ -8,5 +8,5 @@ resources:
 - guestbook-ui-svc.yaml
 
 images:
-- name: gcr.io/google-samples/gb-frontend
-  newTag: v5
+- name: docker.io/library/httpd
+  newTag: 2.4.68
