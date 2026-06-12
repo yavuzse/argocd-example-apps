@@ -8,5 +8,5 @@ resources:
 - guestbook-ui-svc.yaml
 
 images:
-- name: acrfressnapfcloud.azurecr.io/test-automation/service/dev/ai-nexus
-  newTag: 0.0.1-304.764db190a4114529696c790b9a6aaf6900a4abf7
+- name: gcr.io/google-samples/gb-frontend
+  newTag: v5
