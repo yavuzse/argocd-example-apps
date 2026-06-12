@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
+  annotations:
+    notifications.argoproj.io/subscribe.on-sync-running-statuspage.statuspage: statuspage
+    notifications.argoproj.io/statuspage-component-ids: "85fhtdzpxv23"
 spec:
   replicas: 1
   revisionHistoryLimit: 3
