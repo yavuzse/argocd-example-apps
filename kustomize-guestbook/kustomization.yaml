@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: docker.io/library/httpd
-  newTag: "2.4.68"
+  newTag: "2.4"
