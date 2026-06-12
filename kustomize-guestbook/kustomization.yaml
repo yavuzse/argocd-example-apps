@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: docker.io/library/httpd
-  newTag: "2.4.68-trixie"
+  newTag: "2.4.68"
